@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_CreateGqlSchemaFromOntology", "1_CreateGqlSchemaFromOntology\1_CreateGqlSchemaFromOntology.csproj", "{212F93BD-4131-4D30-BDD2-334651067435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLib", "HelperLib\HelperLib.csproj", "{1FF62462-17A4-45F4-AA14-9FA31074587D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{212F93BD-4131-4D30-BDD2-334651067435}.Debug|x86.ActiveCfg = Debug|x86
+		{212F93BD-4131-4D30-BDD2-334651067435}.Debug|x86.Build.0 = Debug|x86
+		{212F93BD-4131-4D30-BDD2-334651067435}.Release|x86.ActiveCfg = Release|x86
+		{212F93BD-4131-4D30-BDD2-334651067435}.Release|x86.Build.0 = Release|x86
+		{1FF62462-17A4-45F4-AA14-9FA31074587D}.Debug|x86.ActiveCfg = Debug|x86
+		{1FF62462-17A4-45F4-AA14-9FA31074587D}.Debug|x86.Build.0 = Debug|x86
+		{1FF62462-17A4-45F4-AA14-9FA31074587D}.Release|x86.ActiveCfg = Release|x86
+		{1FF62462-17A4-45F4-AA14-9FA31074587D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
