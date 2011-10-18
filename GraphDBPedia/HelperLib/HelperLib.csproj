@@ -55,6 +55,8 @@
     <Compile Include="owl\GqlStringExtension.cs" />
     <Compile Include="owl\OwlParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rdf\NTripleParser.cs" />
+    <Compile Include="rdf\Triple.cs" />
     <Compile Include="xml\XmlLikeParser.cs" />
   </ItemGroup>
   <ItemGroup>

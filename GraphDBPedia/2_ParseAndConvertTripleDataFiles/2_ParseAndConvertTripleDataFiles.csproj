@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{212F93BD-4131-4D30-BDD2-334651067435}</ProjectGuid>
+    <ProjectGuid>{23557383-92ED-4772-94EA-B39AB85C5D8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sones.solutions.dbpedia.ddl</RootNamespace>
-    <AssemblyName>CreateGqlSchemaFromOntology</AssemblyName>
+    <RootNamespace>sones.solutions.dbpedia.import</RootNamespace>
+    <AssemblyName>2_ParseAndConvertTripleDataFiles</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -44,11 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateSchemaFromOntology.cs" />
+    <Compile Include="ParseAndConvertTripleDataFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelperLib\HelperLib.csproj">
@@ -57,7 +59,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="license.txt" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
